@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(189, 111, 111);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +22,7 @@ body, input, textarea {
 
 header {
     padding: 16px 0;
-    background-color: #182C61;
+    background-color: black;
     color: #ecf0f1;
 }
 
@@ -72,7 +76,7 @@ section h2 {
 }
 
 section {
-    color: #182C61;
+    color: white;
 }
 
 section p {
@@ -128,22 +132,22 @@ margin-bottom: 16px;
 }
 
 form button{
-    background-color: #182C61 ;
+    background-color: rgb(233, 87, 87) ;
     color: #fff;
     border: none;
     cursor: pointer;
 }
 
 form button:hover{
-   color: #3258c2;
+   color: red;
 }
 
 input:focus, textarea:focus{
-    outline-color: #182C61;
+    outline-color: red;
 }
 
 footer{
-    background-color: #182C61;
+    background-color: black;
     color: #ecf0f1;
     padding: 16px, 0;
     
